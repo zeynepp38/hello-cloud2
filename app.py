@@ -2,7 +2,7 @@ from flask import Flask, render_template_string, request
 import os
 import psycopg2
 app = Flask(__name__)
-DATABASE_URL = os.getenv("DATABASE_URL"," ")
+DATABASE_URL = os.getenv("DATABASE_URL","postgresql://zeynep:8H8DXLLu0FMVTh1GgyytHvsCUfO2MXp2@dpg-d4ca0l0dl3ps73bcao30-a.oregon-postgres.render.com/hello_cloud3_db_3be7")
 HTML = """
 <!doctype html>
 <html>
